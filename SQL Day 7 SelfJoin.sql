@@ -1,5 +1,5 @@
 -- self join
-use sakila;
+use sakila; 
 show tables;
 create table employee2(eid int,ename varchar(20),manager_id int);
 insert into employee2 values(10,'tushar',null),(11,'aman',12),(12,'adi',10),(13,'sakshi',11);
